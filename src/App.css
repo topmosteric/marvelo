@@ -4,8 +4,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: red; */
+  background: ;
+  background-position: fixed;
+  background-size: 100% ;
+  background-repeat: no-repeat;
 }
+body{
+  background:;
+  background-position: fixed;
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
 
+
+}
 .topHeader {
   display: flex;
   flex-direction: column;
@@ -31,7 +43,7 @@
 
 .card {
   user-select: none;
-  max-width: 20vw;
+  width: 300px;
   margin: 5vw auto;
   border: 1px solid #ffffff22;
   background-color: #282c34;
@@ -58,9 +70,13 @@
   width: 90%;
   padding: 1rem;
 }
-.card .main .avatarImage {
+#root{
+  width: 100%;
+  min-height: 100vh;
+}
+.card .main .avatarImage  {
   border-radius: 0.5rem;
-  width: 15vw;
+  width: auto;
   height: 47vh;
   object-fit: cover;
 }
